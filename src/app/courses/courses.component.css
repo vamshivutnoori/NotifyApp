@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Jua');
+.courses{
+    font-size:20px;
+    font-weight:100;
+    font-family: 'Jua', sans-serif;
+}
+li{
+    list-style-type:none;
+}
+button{
+    background-color: aqua;
+}
+button a{
+    color:white;
+    text-decoration: none;
+}

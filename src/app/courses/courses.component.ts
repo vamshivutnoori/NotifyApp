@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-
+import { Course } from '../course';
+import { COURSES } from '../mock-courses';
 @Component({
   selector: 'app-courses',
   templateUrl: './courses.component.html',
@@ -7,6 +8,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CoursesComponent implements OnInit {
 
+  courses= COURSES;
   constructor() { }
 
   ngOnInit() {
