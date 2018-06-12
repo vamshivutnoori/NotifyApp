@@ -1,4 +1,73 @@
-<p align="center"><a routerLink="/courses">Courses</a>&nbsp;&nbsp;
-<a routerLink="/dashboard">Dashboard</a>&nbsp;&nbsp;
-<a routerLink="/to-do-list">To-Do-List</a>
-</p>
+<!DOCTYPE html>
+<html class="csstransforms no-csstransforms3d csstransitions"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<title>Notify Me</title>
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+	<link rel="stylesheet" type="text/css" href="css/menu.css">
+	<link rel="shortcut icon" type="image/png" href="images/logo.png">
+    
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/function.js"></script>
+
+</head>
+<body>
+	<div style="position: fixed;width: 100%;">
+<div style="background:orange; font-size:42px;font-family: Georgia; text-align:center; color: black; font-weight:bold; height:75px; padding-top:20px;">Notify Me
+	<img class="logo1" src="images/logo.png" >
+</div>
+<div id="wrap">
+	<header>
+		<div class="inner relative">
+			<img class="logo" src="images/logo.png" >
+			<a id="menu-toggle" class="button dark" href="#"><i class="icon-reorder"></i></a>
+			<nav id="navigation">
+				<ul id="main-menu">
+					<li class="current-menu-item"><a href="#">Home</a></li>
+					<li class="parent">
+						<a routerLink="/dashboard">Dashboard</a>
+						<ul class="sub-menu">
+							<li><a href="#"><i class="icon-wrench"></i> D1</a></li>
+							<li>
+								<a class="parent" href="#"><i class="icon-file-alt"></i> D2</a>
+								<ul class="sub-menu">
+									<li><a href="#">A</a></li>
+									<li><a href="#">B</a></li>
+									<li><a href="#">C</a></li>
+									<li><a href="#">D</a></li>
+								</ul>
+							</li>
+							<li><a href="#"><i class="icon-credit-card"></i>  D3</a></li>
+							<li><a href="#"><i class="icon-gift"></i> D4</a></li>
+							<li>
+								<a class="parent" href="#"><i class="icon-file-alt"></i> D5</a>
+								<ul class="sub-menu">
+									<li><a href="#">A</a></li>
+									<li><a href="#">B</a></li>
+									<li><a href="#">C</a></li>
+									<li><a href="#">D</a></li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+					<li><a href="#"></a></li>
+					<li class="parent">
+						<a routerLink="/courses">Courses</a>
+						<ul class="sub-menu">
+							<li><a href="#">course 1</a></li>
+							<li><a href="#">course 2</a></li>
+							<li><a href="#">course 3</a></li>
+							<li><a href="#">course 4</a></li>
+							<li><a href="#">more courses</a></li>
+						</ul>
+					</li>
+					<li><a routerLink="/to-do-list">To-Do-List</a></li>
+				</ul>
+			</nav>
+			<div class="clear"></div>
+		</div>
+	</header>	
+</div>   
+</div>
+</body></html>
